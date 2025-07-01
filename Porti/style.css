@@ -1,0 +1,62 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f4ea; /* tom claro de verde */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #c8e6c9; /* verde suave */
+  color: #1b5e20; /* verde escuro para contraste */
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Imagem */
+img {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* Seções */
+section {
+  padding: 2rem;
+  margin: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+a {
+  color: #2e7d32; /* tom de verde para links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+#modo-toggle {
+  background: none;
+  border: 1px solid var(--header-text);
+  color: var(--header-text);
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
